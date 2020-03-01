@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+p {
+	display: block;
+}
+body {
+	background-color: #6bf2ee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+.Modal {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 10px;
+}
+.Image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Price {
+	padding: 10px;	
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 24px;
+}
+.Button_block {
+	font-size: 20px;
+}
+.Button{
+	line-height: 30px;
+	height: 30px;
+	padding: 0 10px;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+	background-color: #0270e4;
+	border-radius: 30px;
+	outline: none;
+}
